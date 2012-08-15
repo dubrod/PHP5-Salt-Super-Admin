@@ -1,0 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+body{background: #333 url(img/gray-bg-noise.jpg) 0 0 repeat; font-family: Arial, Helvetica, sans-serif;}
+
+.error{ margin:10px auto; display:block; height:30px; width:550px; padding:2px; background: url(img/error-bg.jpg) 0 0 repeat-x; border-radius:5px; -moz-border-radius:5px; -webkt-border-radius:5px;
+		color:#FFF; font-size:16px; font-weight:bold; text-shadow: 1px 1px #333; vertical-align: middle; }
+		.error img{vertical-align: middle; padding-right: 5px;}
+
+#box{margin:0 auto; width: 600px; height:275px; background: url(img/super-admin-box-bg.png) 0 0 no-repeat;}
+
+#box form{padding:60px 0 0 50px; margin:0; line-height:2.5em;}
+
+#box form h1{font-family: "Open Sans Condensed"; color:#FFF; font-size:28px; text-shadow:2px 2px 2px #222; margin:0; padding:0;}
+
+#box form input{ background:#FFF; color:#999; font-size:11px; width:200px; height:29px; display:inline-block; border:0; vertical-align: middle; padding:0 5px; 
+	-moz-border-radius: 0px 5px 5px 0px; -webkit-border-radius: 0px 5px 5px 0px; border-radius: 0px 5px 5px 0px; }
+label#username{width:33px; height:29px; text-indent:-5000px; background: url(img/username-label.png) 0 0 no-repeat; margin:0; padding:0; vertical-align:middle; display:inline-block;}
+label#password{width:33px; height:29px; text-indent:-5000px; background: url(img/password-label.png) 0 0 no-repeat; margin:0; padding:0; vertical-align:middle; display:inline-block;}
+#box form button{margin:0; padding:0; text-indent:-5000px; border:0; cursor: pointer; background: url(img/login-button.png) 0 0 no-repeat; width:89px; height:31px;}
